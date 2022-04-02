@@ -1,0 +1,26 @@
+.create-box {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+  margin-bottom: 40px;
+}
+
+.create-button {
+  all: unset;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.company-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-list > div {
+  width: 30%;
+}

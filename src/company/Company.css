@@ -1,0 +1,17 @@
+.company dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company dt {
+  width: 48%;
+  text-align: right;
+  margin-right: 2%;
+  font-weight: bold;
+}
+
+.company dd {
+  margin: 0;
+  width: 50%;
+  text-align: left;
+}
